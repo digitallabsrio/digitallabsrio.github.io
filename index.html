@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="YouTubeID">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Get YouTube ID of YouTube channel" />
+    <title>YouTube Channel To Id</title>
+
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Ej0hUpn6wbrOTJtRExp8jvboBagaz+Or6E9zzWT+gHCQuuZQQVZUcbmhXQzSG17s" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Wrap all page content here -->
+    <div id="wrap" class="text-center">
+
+        <div class="container ">
+
+            <h2>Get my YouTube ID</h2>
+            <p><i>Enter a channe name</i></p>
+            <div class="channel col-lg-6 col-lg-offset-3">
+                <img id="thumbnail-channel" class="thumbnail-channel img-circle empty">
+                <input type="text" name="channelname" id="input-youtube" placeHolder="Channel Name"
+                    class="form-control">
+                <h3 class="id text-center"></h3>
+            </div>
+
+        </div>
+    </div><!-- wrap -->
+
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="js/gapsi.js"></script>
+
+    <script src="https://apis.google.com/js/client.js?onload=googleApiClientReady"></script>
+
+</body>
+
+</html>
